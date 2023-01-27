@@ -1,0 +1,123 @@
+.footer{
+    height: 22vh;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0e0e;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40rem;
+    padding: .5rem 0 0 4rem ;
+    margin: 0;
+}
+
+.list{
+    list-style: none;
+    font-size: .8rem;
+    font-weight: 500;
+    color: grey;
+    padding-right:.5rem ;
+    border-right: solid 2px grey;
+    height: auto;
+  }
+
+  .copyright{
+    color: grey;
+    padding: 0 5rem;
+  }
+  
+  .contact{
+    color: grey;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .socialMedias{
+    display: flex;
+    align-items: center;
+    width: 60%;
+  }
+
+  .playstores{
+    display: flex;
+    align-items: center;
+    width: 40%;
+  }
+
+  .socialIcons {
+    height: 1rem;
+    width: 1rem;
+    color: grey;
+    margin-right: 1rem;
+  }
+
+  .playstoreIcon{
+    height: 2rem;
+    width: 8rem;
+    color: grey;
+  }
+
+
+  @media only screen and (max-width: 760px){
+    .footer{
+      height: 25vh;
+      margin: 0;
+      padding: 0;
+      background-color: #0c0e0e;
+      width: 100vw;
+    }
+    .copyright{
+      color: grey;
+      padding: 1rem;
+      text-align: center;
+      margin: 0;
+    }
+    .content{
+      width: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      max-width: 100vw;
+      padding:1rem
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .list{
+      list-style: none;
+      font-size: .5rem;
+      font-weight: bold;
+      color: grey;
+      padding-right:.5rem ;
+      border-right: solid 0 grey;
+    }
+    .socialMedias{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  
+    .playstores{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+    }
+  
+    .socialIcons {
+      height: 1rem;
+      width: 1rem;
+      color: grey;
+      margin-right: 1rem;
+    }
+}

@@ -1,0 +1,30 @@
+.container{
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    /* margin-top: 2rem; */
+    padding: 2rem 0 0 5rem;
+}
+
+.cardContainer{
+    position: relative;
+    cursor: pointer;
+}
+.card{
+    height: 10rem;
+    width: 7rem;
+    border: none;
+    background-color: #3b3f46;
+    scale: 5rem;
+    margin-right: 1rem;
+}
+
+
+
+.contentTypeTitle{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: white;
+    z-index: 2;
+}
